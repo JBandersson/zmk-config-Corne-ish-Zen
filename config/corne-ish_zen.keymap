@@ -48,7 +48,7 @@
                              &kp LCTL &kp LGUI &kp PSCRN   &kp ESC &mo RAISE &kp LALT
                         >;
                 };
-ikta
+
                 adjust_layer {
                         label = "ADJUST";
                         bindings = <
