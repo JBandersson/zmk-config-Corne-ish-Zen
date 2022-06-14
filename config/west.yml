@@ -1,10 +1,12 @@
 manifest:
   remotes:
     - name: zmkfirmware
-        url-base: https://github.com/caksoylar/zmk.git
+      url-base: https://github.com/LOWPROKB
+    - name: patch
+      url-base: https://github.com/caksoylar/zmk.git
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: patch
       revision: zen+969+1098
       import: app/west.yml
   self:
