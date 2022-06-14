@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: patch
-      revision: zen+969+1098
+      revision: zen
       import: app/west.yml
   self:
     path: config
