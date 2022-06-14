@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      remote: patch
-      revision: zen
+      remote: zmkfirmware
+      revision: Board-Corne-ish-Zen-dedicated-work-queue
       import: app/west.yml
   self:
     path: config
