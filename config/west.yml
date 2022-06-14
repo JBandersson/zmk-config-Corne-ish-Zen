@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/LOWPROKB
     - name: patch
-      url-base: https://github.com/caksoylar/zmk.git
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: patch
